@@ -3,6 +3,6 @@ package com.sample;
 public class User {
 
 	int id;
-	String name, city;
+	String name, city, email;
 
 }
