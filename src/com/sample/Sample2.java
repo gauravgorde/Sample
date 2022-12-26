@@ -10,6 +10,9 @@ public class Sample2 {
 		System.out.println(list);
 		
 		list.forEach(System.out::println);
+		
+		//one for sop add
+		list.forEach(System.out::println);
 
 	}
 }
