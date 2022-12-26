@@ -11,6 +11,9 @@ public class Sample2 {
 
 		list.forEach(System.out::println);
 
+		list.forEach(System.out::println);
+		
+		
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
