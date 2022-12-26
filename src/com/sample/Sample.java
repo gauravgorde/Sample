@@ -16,5 +16,7 @@ public class Sample {
 		System.out.println("First case scenario");
 		
 		System.out.println("Second case scenario");
+		System.out.println("Hello");
+		
 	}
 }
