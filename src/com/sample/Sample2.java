@@ -16,5 +16,10 @@ public class Sample2 {
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
+		
+		
+		for (Integer integer : list) {
+			System.out.println(integer);
+		}
 	}
 }
