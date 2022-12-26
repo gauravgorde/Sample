@@ -13,5 +13,6 @@ public class Sample {
 		}
 
 		System.out.println("Hello");
+		System.out.println("First case scenario");
 	}
 }
