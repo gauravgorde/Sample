@@ -14,9 +14,11 @@ public class Sample {
 
 		System.out.println("Hello");
 		System.out.println("First case scenario");
-		
+
 		System.out.println("Second case scenario");
 		System.out.println("Hello");
-		
+
+		list.stream().forEach(System.out::println);
+
 	}
 }
