@@ -10,5 +10,10 @@ public class UserDetils {
 		user1.setName("XYZ");
 		user1.setCity("Pune");
 		user1.setEmail("xyz@gmail.com");
+
+		System.out.println(user1.getId());
+		System.out.println(user1.getName());
+		System.out.println(user1.getCity());
+		System.out.println(user1.getEmail());
 	}
 }
