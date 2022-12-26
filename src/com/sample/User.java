@@ -3,7 +3,7 @@ package com.sample;
 public class User {
 
 	int id;
-	String name, city;
+	String name, city, email;
 
 	public int getId() {
 		return id;
@@ -29,21 +29,30 @@ public class User {
 		this.city = city;
 	}
 
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", city=" + city + "]";
-	}
-
-	public User(int id, String name, String city) {
+	public User(int id, String name, String city, String email) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.city = city;
+		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", city=" + city + ", email=" + email + "]";
 	}
 
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }
